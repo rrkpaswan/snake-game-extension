@@ -1,31 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  .popup-container {
-    text-align: center;
-    width: 100%;
-    max-width: 500px;
+    width: 520px; /* Slightly larger than canvas */
+    height: 580px; /* Account for controls below canvas */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
   }
   
   canvas {
     border: 2px solid #000;
-    margin: 10px 0;
+    background-color: #f0f0f0;
+    display: block;
   }
   
   #controls {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
   }
   
-  #leaderboard ul {
-    list-style: none;
-    padding: 0;
+  button, select {
+    font-size: 16px;
+    padding: 5px 10px;
   }
   
