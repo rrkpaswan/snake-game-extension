@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Snake Game Extension",
+    "version": "1.0",
+    "description": "A fun snake game to play directly in your browser.",
+    "icons": {
+      "48": "images/icon.png",
+      "128": "images/icon128.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "images/icon.png"
+      }
+    },
+    "permissions": []
+  }
+  
